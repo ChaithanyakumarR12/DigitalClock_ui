@@ -1,0 +1,184 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: blueviolet;
+
+}
+.icon{
+    margin:20px;
+    padding:20px;
+  }
+.header{
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-around;
+}
+.card1{
+    position: absolute;
+   background-color:white;
+   border-radius: 10px;
+   height:100px;
+   width:426px;
+   z-index: 3;
+   
+   }
+.card2{
+    background-color:white;
+    height:100px;
+    width:336px;
+    z-index: 2;
+    transform: translateY(15px);
+    position: absolute;
+    opacity: 0.7;
+    border-radius: 10px;
+    left: 65%;
+ }
+ .card3{
+    position: relative;
+  background-color: white;
+  opacity: 0.5;
+  width: 300px;
+  height: 100px;
+  z-index: 1;
+  transform: translateY(30px);
+  border-radius: 10px;
+  left: 20%;
+  box-shadow: 20px 20px 60px #3d087b, -20px -20px 60px #3d087b;
+ }
+ .clock p{
+    font-size: 22px;
+  color: #3d087b;
+  font-family: "Times New Roman", Times, serif;
+ }
+ .clock_live{
+    text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  font-size: 22px;
+  color: #3d087b;
+ }
+ .hour{
+    background-image: url(timeline.png);
+  padding: 8px;
+ }
+ .minute{
+    background-image: url(timeline.png);
+  padding: 8px;
+ }
+ .second{
+    background-image: url(timeline.png);
+  padding: 8px;
+ }
+ .AM_PM{
+    background-image: url(AM_bg.png);
+    padding: 8px;
+    color: white; 
+ }
+ .Main{
+    display: flex;
+  justify-content: space-around;
+ }
+ #line1 {
+    position: absolute;
+    top: 40%;
+    left: 9.5%;
+    height: 8%;
+    border-left: 1px solid black;
+  }
+  
+  #line2 {
+    position: absolute;
+    top: 51%;
+    left: 9.5%;
+    height: 7%;
+    border-left: 1px solid black;
+  }
+  #line3 {
+    position: absolute;
+    top: 64%;
+    left: 9.5%;
+    height: 8%;
+    border-left: 1px solid black;
+  }
+  .alarm{
+    width: 566px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+ .clock select {
+    width: 150px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .morning {
+    display: flex;
+    justify-content: space-around;
+  }
+  .lunch {
+    display: flex;
+    justify-content: space-around;
+  }
+  .nap{
+    display: flex;
+    justify-content: space-around;
+  }
+  .night{
+    display: flex;
+    justify-content: space-around;
+  }
+  #display{ 
+    
+    border:1px solid white;
+    border-radius: 10px;
+    color: #ffffff;
+    margin: 10px 0px 0px 75px;
+    
+    background: #cb52f8;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    justify-content: right;
+      }
+  .message{
+    border-radius: 4px;
+    opacity: 1;
+    color: white;
+    background: linear-gradient(to left, #6e54ec, #cb52f8, #fc5eff, #f1a7c5);
+    width: 300px;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  #display1{ 
+    
+    border:1px solid white;
+    border-radius: 10px;
+    color: white;
+    margin: 10px 0px;
+    padding: 20px 10px;
+    background: #cb52f8;
+    text-align: center;
+    text-transform: uppercase;
+      }
+  .figure {
+    background-color: white;
+    width: 450px;
+    height: 400px;
+    border-radius:21px;
+    background-image: url(wakeup.png);
+    background-size: cover;
+  }
+  .box{
+    display: flex;
+    flex-direction: row;
+  }
+  
